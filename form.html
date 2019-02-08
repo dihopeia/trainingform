@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF8">
+        <title>Űrlap</title>
+    </head>
+    <body>
+        <br>
+        <h1>Sima regisztrációs űrlap:</h1>
+        <br><hr>
+        <h3>A minél gyorsabb és pontosabb kitöltés érdekében, kérjük, hogy olvassa el a részletes kitöltési útmutatót, ami <a target="_blank" href="./howto.html">ide</a> kattintva érhető el.</h2>
+        <form>
+            <br>
+            <label for="vname">Neme:</label><br>
+            - Férfi<input name="gender" value="male" type="radio"> - Nő<input name="gender"  value="female" type="radio"><br>
+            <label for="vname">Neve:</label><br>
+            <label for="vname">Vezetéknév: </label><input id="vname" name="vname" type="text"> <label for="kname"> Keresztnév: </label><input id="kname" name="kname" type="text"><br><br>
+            <label for="date">Születési dátum: </label><input id="date" name="date" type="date"><br><br>
+            <label for="adress">Lakcím </label><input id="adress" name="adress" type="text"><br>
+            <label for="mail">Levelezési cím: </label><input id="mail" name="mail" type="text"><br><br>
+            <label for="e-mail">E-mail cím: </label><input id="e-mail" name="e-mail" type="email"><br>
+            <label for="phone">Telefonszám: </label><input id="phone" name="phone" type="tel" value="0036"><br><br>
+            <select name="ilyenis">
+            <optgroup label="Van ilyen is">
+                <option value="1">Valami</option>
+                <option value="2">Mégvalami</option>
+            </optgroup>
+            <optgroup label="Meg ilyen is">
+                <option value="3">A következő dolog</option>
+                <option value="4">Semmi?</option>
+            </optgroup>
+            
+        </select><br><br>
+        <textarea name="megjegyzes"></textarea><br><br>
+        Bele egyezek bármibe persze: <input name="feltetelek" value="eladta a lelkit" type="checkbox"><br><br>
+            <input type="submit" value="Kész"><br>
+        </form>
+    </body>
+</html>
