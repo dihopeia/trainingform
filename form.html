@@ -2,14 +2,18 @@
 <html>
     <head>
         <meta charset="UTF8">
-        <title>Űrlap</title>
+        <title>zŰrlap</title>
         <link rel="stylesheet" type="text/css" href="./design/main.css">
     </head>
     <body>
-        <h1>Sima regisztrációs űrlap:</h1>
-        <h3>A minél gyorsabb és pontosabb kitöltés érdekében, kérjük, hogy olvassa el a részletes kitöltési útmutatót, ami <a target="_blank" href="./howto.html">ide</a> kattintva érhető el.</h2>
-        <form>
-            <br>
+        <header>
+        <h1>Sima regisztrációs űrlap</h1>
+        <nav>
+            <a href="form.html">A zűrlap</a>
+            <a href="howto.html">Kitöltési útmutató</a>
+        </nav>
+        </header>
+            <form> 
             <label for="vname">Neme:</label><br>
             - Férfi<input name="gender" value="male" type="radio"> - Nő<input name="gender"  value="female" type="radio"><br>
             <label for="vname">Neve:</label><br>
@@ -34,5 +38,6 @@
         Bele egyezek bármibe persze: <input name="feltetelek" value="eladta a lelkit" type="checkbox"><br><br>
             <input type="submit" value="Kész"><br>
         </form>
+        <footer><p>Semmilyen jog nincs fent tartva - 2034</p></footer>
     </body>
 </html>
