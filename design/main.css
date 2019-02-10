@@ -95,3 +95,31 @@ footer p{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
 }
+
+.bekezdes{
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+ul{
+    border:2px dotted red;
+    border-top-left-radius: 2% 20%;
+    border-top-right-radius: 2% 20%;
+    border-bottom-left-radius: 2% 20%;
+    border-bottom-right-radius: 2% 20%;
+}
+
+li{
+    padding:1%;
+    list-style-type:circle;
+    margin-left:3%;
+}
+
+dd{
+    margin-left:3%;
+}
+
+[type="submit"]{
+    padding:1%;
+    border-radius: 50%;
+}
